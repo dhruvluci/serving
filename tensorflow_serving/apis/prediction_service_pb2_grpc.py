@@ -20,7 +20,7 @@ import grpc
 import sys
 sys.path.append("/home/kenaudekarhetal/bert/bert/serving")
 from .. import apis
-from .. import apis.classification_pb2 as tensorflow__serving_dot_apis_dot_classification__pb2
+from . import classification_pb2 as tensorflow__serving_dot_apis_dot_classification__pb2
 from tensorflow_serving.apis import classification_pb2 as tensorflow__serving_dot_apis_dot_classification__pb2
 from tensorflow_serving.apis import get_model_metadata_pb2 as tensorflow__serving_dot_apis_dot_get__model__metadata__pb2
 from tensorflow_serving.apis import inference_pb2 as tensorflow__serving_dot_apis_dot_inference__pb2
